@@ -85,12 +85,14 @@ function findMissing(arr1, arr2) {
 
     _November 21, 2022 — January 30, 2023_
 
-    ![Certificate of the «HTML & CSS. Adaptive Website Coding and Automation» course](./img/certificate_html_css.png)
+    ![Certificate of the «HTML & CSS. Adaptive Website Coding and Automation» course](./img/certificate_html_css__2.png)
 
 
 * **Java Script. Professional Development of Web Interfaces**
 
     _February 14 — April 17, 2023_
+
+    ![Certificate of the «Java Script. Professional Development of Web Interfaces» course](./img/certificate_js.png)
 
 
 ==========
