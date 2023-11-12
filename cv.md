@@ -1,3 +1,5 @@
+![Elena Lisichenok](./img/cv__photo.jpg)
+
 # Elena Lisichenok
 
 ## Junior Frontend Developer
@@ -5,9 +7,18 @@
 ### Contacts
 
 **Phone:** +7 (952) 207 52 66
+
+
 **E-mail:** elisichenok@gmail.com
+
+
 **Telegram:** @panilisica
+
+
 **Discord:** elena-lis
+
+
+==========
 
 
 ### Personal Statement
@@ -21,6 +32,9 @@ I started my acquaintance with HTML, CSS and JavaScript with code-simulators, bu
 I like challenging problems because solving them inspires me to develop further.
 
 
+==========
+
+
 ### Skills
 
 * HTML5, CSS3
@@ -30,6 +44,9 @@ I like challenging problems because solving them inspires me to develop further.
 * VS Code
 * Figma
 * Gulp Basics
+
+
+==========
 
 
 ### Code Example
@@ -49,34 +66,43 @@ function findMissing(arr1, arr2) {
 }
 ```
 
+==========
+
 
 ### Education
 
 
-**"HTML Academy" Courses:**
+**«HTML Academy» Courses:**
 
 * **HTML & CSS. Professional Website Coding**
 
-    __September 19 — November 21, 2022__
+    _September 19 — November 21, 2022_
+
+    ![Certificate of the «HTML & CSS. Professional Website Coding» course](./img/certificate_html_css.png)
 
 
 * **HTML & CSS. Adaptive Website Coding and Automation**
 
-    __November 21, 2022 — January 30, 2023__
+    _November 21, 2022 — January 30, 2023_
+
+    ![Certificate of the «HTML & CSS. Adaptive Website Coding and Automation» course](./img/certificate_html_css.png)
 
 
 * **Java Script. Professional Development of Web Interfaces**
 
-    __February 14 — April 17, 2023__
+    _February 14 — April 17, 2023_
+
+
+==========
 
 
 ### Work Experience
 
-* **Development Stage during the study at the "HTML Academy"**
+* **Development Stage during the study at the «HTML Academy»**
 
-    __June 06 — September 25, 2023__
+    _June 06 — September 25, 2023_
 
-    + **[Personal Project "Drink2Go"](https://lena-lis.github.io/Drink2Go/build/)**
+    + **[Personal Project «Drink2Go»](https://lena-lis.github.io/Drink2Go/build/)**
 
     __About:__ Drink2Go is an online store selling coffee drinks. Convenient sorting by country of grain growth and milk concentration will help you choose the perfect drink. The number of items to order is not limited.
 
@@ -86,19 +112,23 @@ function findMissing(arr1, arr2) {
     __Tools & Approaches Used:__ HTML, SCSS, Gulp, BEM, Mobile First, noUiSlider, Swiper
 
 
-    + **[Personal Project "Fitness 2.0"](https://lena-lis.github.io/fitness_2.0/build/)**
+    + **[Personal Project «Fitness 2.0»](https://lena-lis.github.io/fitness_2.0/build/)**
 
-    __About:__ The project was completed during the acceleration stage at the "HTML Academy" on the "Frontend Developer Profession" in a team with a manager, mentor and testers.
+    __About:__ The project was completed during the acceleration stage at the «HTML Academy» on the «Frontend Developer Profession» in a team with a manager, mentor and testers.
 
 
     __Tools & Approaches Used:__ HTML, SCSS, Gulp, BEM, Desktop First, Cross-browser compatibility, initialization of the video player with JS, Tabs & Accordions, Swiper
 
-    + **[Personal Project "Lifetour"](https://lena-lis.github.io/travels/build/)**
+    
+    + **[Personal Project «Lifetour»](https://lena-lis.github.io/travels/build/)**
 
-    __About:__ The project was completed during the acceleration stage at the "HTML Academy" on the "Frontend Developer Profession" in a team with a manager, mentor and testers.
+    __About:__ The project was completed during the acceleration stage at the «HTML Academy» on the «Frontend Developer Profession» in a team with a manager, mentor and testers.
 
 
     __Tools & Approaches Used:__ HTML, SCSS, Gulp, BEM, Desktop First, Cross-browser compatibility, initialization of the video and audio players with JS, Tabs & Accordions, Swiper, Leaflet
+
+
+==========
 
 
 ### Languages
