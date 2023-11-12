@@ -100,3 +100,13 @@ function findMissing(arr1, arr2) {
 
     __Tools & Approaches Used:__ HTML, SCSS, Gulp, BEM, Desktop First, Cross-browser compatibility, initialization of the video and audio players with JS, Tabs & Accordions, Swiper, Leaflet
 
+
+### Languages
+
+
+* English — Proficient (according to the 50-min online test at [EF Set](https://www.efset.org/ef-set-50/))
+
+
+[![EF Set Certificate](https://cdn.efset.org/efset-widget/img/certificate_75.png)](https://www.efset.org/cert/a34Ldx)
+* Russian — Native
+* Polish — Upper Intermediate
