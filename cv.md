@@ -129,6 +129,11 @@ function findMissing(arr1, arr2) {
 
     __Tools & Approaches Used:__ HTML, SCSS, Gulp, BEM, Desktop First, Cross-browser compatibility, initialization of the video and audio players with JS, Tabs & Accordions, Swiper, Leaflet
 
+* **Projects completed during the RS School JavaScript course/Frontend 2023**
+
+    +**[Hangman Game](https://rolling-scopes-school.github.io/lena-lis-JSFE2023Q4/hangman/)**
+
+    +**[Nonograms](https://rolling-scopes-school.github.io/lena-lis-JSFE2023Q4/nonograms/)**
 
 ==========
 
