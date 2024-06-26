@@ -131,9 +131,9 @@ function findMissing(arr1, arr2) {
 
 * **Projects completed during the RS School JavaScript course/Frontend 2023**
 
-    +**[Hangman Game](https://rolling-scopes-school.github.io/lena-lis-JSFE2023Q4/hangman/)**
+    + **[Hangman Game](https://rolling-scopes-school.github.io/lena-lis-JSFE2023Q4/hangman/)**
 
-    +**[Nonograms](https://rolling-scopes-school.github.io/lena-lis-JSFE2023Q4/nonograms/)**
+    + **[Nonograms](https://rolling-scopes-school.github.io/lena-lis-JSFE2023Q4/nonograms/)**
 
 ==========
 
