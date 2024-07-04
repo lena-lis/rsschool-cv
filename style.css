@@ -143,26 +143,16 @@ main {
   user-select: none;
 
   transition: opacity 0.3s ease-out;
+}
 
-  /* &:hover,
-  &:focus,
-  &:focus-visible {
-    color: $color-resolution-blue;
-    background-color: $color-transparent;
-    border-color: $color-resolution-blue;
-    outline: none;
-  }
-
-  &:active {
-    color: $color-default-white;
-    background-color: $color-resolution-blue;
-    border-color: $color-resolution-blue;
-  }
-
-  &:disabled {
-    opacity: 0.1;
-    pointer-events: none;
-  } */
+.section-title {
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding: 15px;
+  font-family: "DM Serif Text", Times, serif;
+  font-size: 40px;
+  border-bottom: 4px solid #164d2c;
 }
 
 /* HEADER */
@@ -314,6 +304,8 @@ main {
   font-family: 'DM Serif Display';
   font-size: 60px;
   text-decoration: underline;
+  text-decoration-color: #164d2c;
+  text-underline-offset: 4px;
 }
 
 .info__occupation {
@@ -401,5 +393,25 @@ main {
     box-shadow: 0 6px 4px rgba(0, 0, 0, 0.35);
     transform: translateY(2px);
     outline: none;
+
+    svg {
+      color: #164d2c;
+    }
   }
+}
+
+/* about */
+
+.about-skills__wrapper {
+  background: radial-gradient(#ffffff, rgba(1, 1, 1, 0.16));
+}
+
+.about {
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.about__description-container {
+  padding: 0 140px;
+  text-align: justify;
 }
