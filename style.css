@@ -181,11 +181,11 @@ main {
 
 .main-header__logo-container {
   position: relative;
-  width: fit-content;
+  width: 100%;
   overflow: hidden;
 }
 
-.main-header__logo-overlay {
+.logo__overlay {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -198,8 +198,10 @@ main {
 }
 
 @media(hover: hover) {
-  .main-header__logo-container:hover .main-header__logo-overlay {
+  .logo:hover .logo__overlay,
+  .logo__overlay:focus {
     opacity: 1;
+    outline: none;
   }
 }
 
@@ -211,7 +213,7 @@ main {
   margin-left: 80px;
 }
 
-.main-navigation__menu ul {
+.main-navigation__list {
   display: flex;
   flex-wrap: wrap;
   justify-content: end;
@@ -222,9 +224,16 @@ main {
   list-style-type: none;
 }
 
-.main-navigation__menu li {
+.main-navigation__item {
   padding: 10px;
   border: 2px solid transparent;
+  border-radius: 30px;
+  transition: border-color 0.3s ease-out;
+}
+
+.main-navigation__item:has(.main-navigation__link:hover),
+.main-navigation__item:has(.main-navigation__link:focus-visible) {
+  border-color: #ffffff;
 }
 
 .main-navigation__link {
@@ -234,14 +243,30 @@ main {
   text-align: center;
 }
 
+.main-navigation__link:hover,
+.main-navigation__link:focus {
+  outline: none;
+}
+
+
 .main-navigation__link.btn {
   text-transform: uppercase;
   color: #100d09;
 }
 
-.main-navigation__item:has(> .btn) {
+@media(hover: hover) {
+  .main-navigation__item:has(.btn:hover),
+  .main-navigation__item:has(.btn:focus-visible) {
+    transform: translateY(4px);
+    box-shadow: 0 4px 4px #d7d7d7;
+    outline: none;
+  }
+}
+
+.main-navigation__item:has(.btn) {
   background-color: #ffffff;
   border-radius: 30px;
+  transition: all 0.3s ease-out;
 }
 
 /* HERO */
