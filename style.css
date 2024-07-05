@@ -148,7 +148,7 @@ main {
 .section-title {
   width: fit-content;
   margin: 0 auto;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   padding: 15px;
   font-family: "DM Serif Text", Times, serif;
   font-size: 40px;
@@ -407,11 +407,69 @@ main {
 }
 
 .about {
-  margin-top: 40px;
+  margin-top: 50px;
   margin-bottom: 50px;
 }
 
 .about__description-container {
   padding: 0 140px;
   text-align: justify;
+}
+
+/* SKILLS */
+
+.skills__type-list,
+.skills__type ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.skills__type:not(:last-of-type) {
+  margin-bottom: 60px;
+}
+
+.skills__subtitle {
+  margin: 0;
+  margin-bottom: 30px;
+
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.skills__type ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.skills__type--used ul {
+  display: grid;
+  grid-template-columns: repeat(4, max-content);
+}
+
+.skills__item {
+  display: grid;
+  grid-template-rows: auto min-content;
+  row-gap: 10px;
+  padding: 5px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.skills__item svg {
+  margin: auto;
+  width: 50px;
+  height: 100%;
+}
+
+.skills__item--gulp svg {
+  width: 40px;
+}
+
+.skills__item span {
+  margin-top: auto;
 }
