@@ -525,9 +525,11 @@ main {
 }
 
 .code__tasks-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
   margin: 0;
   padding: 0;
-  list-style-type: none;
 }
 
 .code__tasks-item {
@@ -548,13 +550,17 @@ main {
   margin-bottom: 20px;
 }
 
+.code__tasks-item p:last-of-type {
+  margin-top: auto;
+}
+
+.code__tasks-item span {
+  font-weight: 600;
+}
+
 pre {
   margin: 0;
-  white-space: pre-wrap;       /* css-3 */
-  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
-  white-space: -pre-wrap;      /* Opera 4-6 */
-  white-space: -o-pre-wrap;    /* Opera 7 */
-  word-wrap: break-word;       /* Internet Explorer 5.5+ */
+  overflow-x: auto;
 }
 
 .code__tasks-item pre:first-of-type {

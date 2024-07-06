@@ -324,7 +324,7 @@
             <ol class="code__tasks-list">
               <li class="code__tasks-item">
                 <h3>Multiplication Table</h3>
-                <p>Task condition: output the multiplication table to the console. Execution language: JavaScript.</p>
+                <p><span>Task condition:</span> output the multiplication table to the console.<br> Execution language: JavaScript.</p>
 <pre><code>
 function printMultiplicationTable() {
   let output = '';
@@ -355,6 +355,29 @@ printMultiplicationTable();
 8  16 24 32 40 48 56 64 72 80 
 9  18 27 36 45 54 63 72 81 90 
 10 20 30 40 50 60 70 80 90 100 
+</code></pre>
+              </li>
+              <li class="code__tasks-item">
+                <h3><a href="https://www.codewars.com/kata/5a5915b8d39ec5aa18000030">Find the missing element between two arrays</a></h3>
+                <p><span>Task condition:</span> Given two integer arrays where the second array is a shuffled duplicate of the first array with one element missing, find the missing element.<br>
+                  Please note, there may be duplicates in the arrays, so checking if a numerical value exists in one and not the other is not a valid solution.<br>
+                  The first array will always have at least one element.<br>
+                  <span>Execution language:</span> JavaScript.</p>
+<pre><code>
+function findMissing(arr1, arr2) {
+  let dictionary = {};
+  arr1.forEach((element) => (element in dictionary) ? dictionary[element] += 1 : dictionary[element] = 1);
+  arr2.forEach((element) => (element in dictionary) ? dictionary[element] -= 1 : dictionary[element] = 1);
+  for (let key in dictionary) {
+    if (dictionary[key] > 0) return +key;
+  }
+}
+                                
+findMissing([6, 1, 3, 6, 8, 2], [3, 6, 6, 1, 2]);
+</code></pre>
+                <p>The expected result of the execution:</p>
+<pre><code>
+8 
 </code></pre>
               </li>
             </ol>
