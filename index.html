@@ -74,7 +74,7 @@
           <div class="info__socials socials">
             <ul>
               <li>
-                <a class="socials__link" href="mailto: elisichenok@gmail.com">
+                <a class="socials__link" href="mailto:elisichenok@gmail.com">
                   <svg aria-hidden="true" focusable="false" width="37" height="36" viewBox="0 0 37 36"
                     xmlns="http://www.w3.org/2000/svg">
                     <path
@@ -288,7 +288,7 @@
                     <circle cx="50" cy="50" r="50" fill="url(#a)"/>
                     <defs>
                       <linearGradient id="a" x1="50" x2="50" y1="0" y2="100" gradientUnits="userSpaceOnUse">
-                        <stop stop-color="#fff"/>
+                        <stop offset="0" stop-color="#fff"/>
                         <stop offset=".33" stop-color="#fff"/>
                         <stop offset=".33" stop-color="#00F"/>
                         <stop offset=".66" stop-color="#00F"/>
@@ -322,10 +322,10 @@
 <pre><code>
 function printMultiplicationTable() {
   let output = '';
-  for (let x = 1; x <= 10; x++) {
+  for (let x = 1; x &lt;= 10; x++) {
     output = '';
-    for (let y = 1; y <= 10; y++) {
-      if (x * y < 10) {
+    for (let y = 1; y &lt;= 10; y++) {
+      if (x * y &lt; 10) {
         output += ((x * y) + '  ');
       } else {
         output += ((x * y) + ' ');
