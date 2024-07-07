@@ -582,7 +582,13 @@ pre:has(> code) {
 
 .portfolio {
   margin-top: 50px;
+  border-bottom: 2px solid #100d09;
 }
+
+.portfolio__container {
+  margin-bottom: 72px;
+}
+
 .portfolio__title-wrapper {
   margin-bottom: 30px;
 }
@@ -714,4 +720,59 @@ td:last-of-type {
   .portfolio__links a:hover {
     opacity: 0.7;
   }
+}
+
+/* EDUCATION */
+
+.education__subtitle {
+  margin: 0;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.education__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 50px;
+
+  margin: 0;
+  margin-bottom: 40px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.education__current {
+  margin: 0;
+  padding: 0 140px;
+  text-align: justify;
+
+  span {
+    font-weight: 600;
+  }
+}
+
+.course {
+  display: grid;
+  grid-template-rows: auto max-content;
+  max-width: 360px;
+}
+
+.course__description-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 1px solid #164d2c;
+  border-bottom: none;
+}
+
+.course__title {
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.course__term {
+  margin: 0;
+  margin-top: auto;
+  font-style: italic;
 }
