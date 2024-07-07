@@ -904,6 +904,8 @@ td:last-of-type {
   display: block;
   min-width: 120px;
   min-height: 45px;
+  opacity: 1;
+  transition: opacity 0.3s ease;
 
   svg {
     position: absolute;
@@ -912,5 +914,13 @@ td:last-of-type {
     bottom: 0;
     left: 0;
     margin: auto;
+  }
+}
+
+@media(hover: hover) {
+  .logo-rs__link:hover,
+  .logo-rs__link:focus {
+    outline: none;
+    opacity: 0.5;
   }
 }
