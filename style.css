@@ -296,8 +296,8 @@ main {
 .hero__container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin-top: 120px;
-  margin-bottom: 50px;
+  padding-top: 120px;
+  padding-bottom: 50px;
 }
 
 .hero__image img {
@@ -418,7 +418,7 @@ main {
 }
 
 .about {
-  margin-top: 50px;
+  padding-top: 50px;
 }
 
 .about__description-container {
